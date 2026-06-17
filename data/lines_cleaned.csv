@@ -1,0 +1,625 @@
+line_cd,company_cd,line_name,line_name_rn,line_type
+1001,3,中央新幹線,Chuo Shinkansen,1
+1002,3,東海道新幹線,Tokaido Shinkansen,1
+1003,4,山陽新幹線,Sanyo Shinkansen,1
+1004,2,東北新幹線,Tohoku Shinkansen,1
+1005,2,上越新幹線,Joetsu Shinkansen,1
+1006,2,上越新幹線(ガーラ湯沢支線),Joetsu Shinkansen,1
+1007,2,山形新幹線,Yamagata Shinkansen,1
+1008,2,秋田新幹線,Akita Shinkansen,1
+1009,2,北陸新幹線,Hokuriku Shinkansen,1
+1010,6,九州新幹線,Kyushu Shinkansen,1
+1011,1,北海道新幹線,Hokkaido Shinkansen,1
+1012,6,西九州新幹線,Nishi-Kyushu Shinkansen,1
+11101,1,函館本線,Hakodate Main Line,2
+11102,1,函館本線,Hakodate Main Line,2
+11103,1,函館本線,Hakodate Main Line,2
+11104,1,室蘭本線,Muroran Main Line,2
+11105,1,室蘭本線,Muroran Main Line,2
+11106,1,根室本線,Nemuro Main Line,2
+11107,1,根室本線,Nemuro Main Line,2
+11108,1,花咲線,Hanasaki Line,2
+11109,1,千歳線,Chitose Line,2
+11110,1,石勝線,Sekisho Main Line,2
+11111,1,日高本線,Hidaka Main Line,2
+11112,1,札沼線,Sassho Line,2
+11113,1,留萌本線,Rumoi Main Line,2
+11114,1,富良野線,Furano Line,2
+11115,1,宗谷本線,Soya Main Line,2
+11116,1,石北本線,Sekihoku Main Line,2
+11117,1,釧網本線,Senmo Main Line,2
+11118,1,海峡線,Kaikyo Line,2
+11119,1,江差線,Esashi Line,2
+11201,2,東北本線,Tohoku Main Line,2
+11202,2,奥羽本線,Ou Main Line,2
+11231,2,東北本線,Tohoku Main Line,2
+11203,2,はまなすベイライン大湊線,Ominato Line,2
+11204,2,五能線,Gono Line,2
+11205,2,津軽線,Tsugaru Line,2
+11206,2,八戸線,Hachinohe Line,2
+11207,2,岩泉線,Iwaizumi Line,2
+11208,2,ドラゴンレール大船渡線,Ofunato Line,2
+11209,2,銀河ドリームライン釜石線,Kamaishi Line,2
+11210,2,北上線,Kitakami Line,2
+11211,2,田沢湖線,Tazawako Line,2
+11212,2,十和田八幡平四季彩ライン,Hanawa Line,2
+11213,2,山田線,Yamada Line,2
+11214,2,羽越本線,Uetsu Main Line,2
+11215,2,男鹿線,Oga Line,2
+11216,2,山形線,Ou Main Line,2
+11217,2,仙山線,Senzan Line,2
+11218,2,フルーツライン左沢線,Aterazawa Line,2
+11219,2,米坂線,Yonesaka Line,2
+11220,2,奥の細道最上川ライン,Riku-West Line,2
+11221,2,奥の細道湯けむりライン,Riku-East Line,2
+11222,2,仙石線,Senseki Line,2
+11223,2,石巻線,Ishinomaki Line,2
+11224,2,気仙沼線,Kesennuma Line,2
+11225,2,磐越西線,Ban-etsu-West Line,2
+11226,2,森と水とロマンの鉄道,Ban-etsu-West Line,2
+11227,2,只見線,Tadami Line,2
+11228,2,ゆうゆうあぶくまライン,Ban-etsu-East Line,2
+11229,2,常磐線,Joban Line,2
+11230,2,常磐線,Joban Line,2
+11301,2,東海道線,Tokaido Line,2
+11302,2,山手線,Yamanote Line,2
+11303,2,南武線,Nambu Line,2
+11304,2,鶴見線,Tsurumi Line,2
+11305,2,武蔵野線,Musashino Line,2
+11306,2,横浜線,Yokohama Line,2
+11307,2,根岸線,Negishi Line,2
+11308,2,横須賀線,Yokosuka Line,2
+11309,2,相模線,Sagami Line,2
+11311,2,中央本線,Chuo Line,2
+11312,2,中央線(快速),Chuo Line,2
+11313,2,中央・総武線,Chuo-Sobu Line,2
+11314,2,総武本線,Sobu Main Line,2
+11315,2,青梅線,Ome Line,2
+11316,2,五日市線,Itsukaichi Line,2
+11317,2,八高線,Hachiko Line,2
+11318,2,八高線,Hachiko Line,2
+11319,2,宇都宮線,Utsunomiya Line,2
+11320,2,常磐快速線,Joban Rapid Line,2
+11321,2,埼京線,Saikyo Line,2
+11322,2,川越線,Kawagoe Line,2
+11323,2,高崎線,Takasaki Line,2
+11324,2,外房線,Sotobo Line,2
+11325,2,内房線,Uchibo Line,2
+11326,2,京葉線,Keiyo Line,2
+11327,2,成田線,Narita Line,2
+11328,2,成田エクスプレス,Narita Express,2
+11329,2,鹿島線,Kashima Line,2
+11330,2,久留里線,Kururi Line,2
+11331,2,東金線,Togane Line,2
+11332,2,京浜東北線,Keihin-Tohoku Line,2
+11333,2,湘南新宿ライン,Shonan-Shinjuku Line,2
+11343,2,上野東京ライン,Ueno-Tokyo Line,2
+11334,2,烏山線,Karasuyama Line,2
+11335,2,吾妻線,Agatsuma Line,2
+11337,2,信越本線,Shin’etsu Main Line,2
+11338,2,水郡線,Suigun Line,2
+11339,2,水戸線,Mito Line,2
+11340,2,日光線,Nikko Line,2
+11341,2,両毛線,Ryomo Line,2
+11342,2,上越線,Joetsu Line,2
+11344,2,常磐線,Joban Line,2
+11345,100,ディズニーリゾートライン,Disney Resort Line,5
+11401,2,小海線,Koumi Line,2
+11402,3,身延線,Minobu Line,2
+11403,2,信越本線,Shin’etsu Main Line,2
+11404,2,信越本線,Shin’etsu Main Line,2
+11405,4,北陸本線,Hokuriku Main Line,2
+11406,2,白新線,Hakushin Line,2
+11407,2,飯山線,Iiyama Line,2
+11408,2,越後線,Echigo Line,2
+11409,2,北アルプス線,Oito Line,2
+11410,2,弥彦線,Yahiko Line,2
+11411,3,中央本線,Chuo Line,2
+11412,2,篠ノ井線,Shinonoi Line,2
+11413,3,飯田線,Iida Line,2
+11414,3,飯田線,Iida Line,2
+11415,4,北陸本線,Hokuriku Main Line,2
+11416,3,高山本線,Takayama Line,2
+11417,4,城端線,Johana Line,2
+11418,4,氷見線,Himi Line,2
+11419,4,七尾線,Nanao Line,2
+11420,4,敦賀港線,Tsurugaminato Line,2
+11421,4,九頭竜線,Kuzuryu Line,2
+11422,4,小浜線,Obama Line,2
+11501,3,東海道本線,Tokaido Line,2
+11502,3,東海道本線,Tokaido Line,2
+11503,3,東海道本線,Tokaido Line,2
+11504,2,伊東線,Ito Line,2
+11505,3,御殿場線,Gotemba Line,2
+11506,3,武豊線,Taketoyo Line,2
+11507,3,太多線,Taita Line,2
+11508,3,関西本線,Kansai Line,2
+11509,4,関西本線,Kansai Main Line,2
+11510,3,紀勢本線,Kisei Line,2
+11511,4,草津線,Kusatsu Line,2
+11512,3,参宮線,Sangu Line,2
+11513,3,名松線,Meisho Line,2
+11601,4,琵琶湖線,Biwako Line,2
+11602,4,JR京都線,Kyoto Line,2
+11603,4,JR神戸線,Kobe Line,2
+11605,4,湖西線,Kosei Line,2
+11607,4,大和路線,Yamatoji Line,2
+11608,4,JR神戸線,Kobe Line,2
+11609,4,山陽本線,San’yo Main Line,2
+11610,4,山陽本線,San’yo Main Line,2
+11611,4,山陽本線,San’yo Main Line,2
+11612,4,山陽本線,San'yo Main Line,2
+11613,4,山陽本線,San’yo Main Line,2
+11614,4,嵯峨野線,Sagano Line,2
+11615,4,山陰本線,San'in Main Line,2
+11616,4,山陰本線,San’in Main Line,2
+11617,4,学研都市線,Gakkentoshi Line,2
+11618,4,奈良線,Nara Line,2
+11622,4,舞鶴線,Maizuru Line,2
+11623,4,大阪環状線,Osaka Loop Line,2
+11624,4,JRゆめ咲線,Yumesaki Line,2
+11625,4,JR東西線,Tozai Line,2
+11626,4,阪和線,Hanwa Line,2
+11627,4,羽衣線,Hagoromo Line,2
+11628,4,関西空港線,Kansai Airport Line,2
+11629,4,JR宝塚線,Takarazuka Line,2
+11630,4,福知山線,Fukuchiyama Line,2
+11631,4,赤穂線,Ako Line,2
+11632,4,加古川線,Kakogawa Line,2
+11633,4,姫新線,Kishin Line,2
+11634,4,姫新線,Kishin Line,2
+11635,4,播但線,Bantan Line,2
+11636,4,和歌山線,Wakayama Line,2
+11637,4,万葉まほろば線,Manyo Mahoroba Line,2
+11639,4,きのくに線,Kinokuni Line,2
+11640,4,紀勢本線,Kisei Main Line,2
+11641,4,おおさか東線,Osaka Higashi Line,2
+11701,4,山陰本線,San’in Main Line,2
+11702,4,山陰本線,San’in Main Line,2
+11703,4,伯備線,Hakubi Line,2
+11704,4,因美線,Inbi Line,2
+11705,4,境線,Sakai Line,2
+11706,4,木次線,Kisuki Line,2
+11707,4,三江線,Sanko Line,2
+11708,4,山口線,Yamaguchi Line,2
+11709,4,宇野線,Uno Line,2
+11710,4,瀬戸大橋線,Honshi-Bisan Line,2
+11713,4,吉備線,Kibi Line,2
+11714,4,芸備線,Geibi Line,2
+11715,4,津山線,Tsuyama Line,2
+11716,4,呉線,Kure Line,2
+11717,4,可部線,Kabe Line,2
+11720,4,福塩線,Fukuen Line,2
+11721,4,宇部線,Ube Line,2
+11722,4,美祢線,Mine Line,2
+11723,4,小野田線,Onoda Line,2
+11724,4,岩徳線,Gantoku Line,2
+11801,5,土讃線,Dosan Line,2
+11802,5,高徳線,Kotoku Line,2
+11803,5,よしの川ブルーライン,Tokushima Line,2
+11804,5,牟岐線,Mugi Line,2
+11805,5,鳴門線,Naruto Line,2
+11806,5,予讃線,Yosan Line,2
+11807,5,予讃・内子線,Yosan/Uchiko Line,2
+11808,5,しまんとグリーンライン,Yodo Line,2
+11901,4,博多南線,Hakata-Minami Line,2
+11902,6,鹿児島本線,Kagoshima Main Line,2
+11903,6,鹿児島本線,Kagoshima Main Line,2
+11904,6,鹿児島本線,Kagoshima Main Line,2
+11905,6,長崎本線,Nagasaki Main Line,2
+11906,6,日豊本線,Nippo Main Line,2
+11907,6,日豊本線,Nippo Main Line,2
+11908,6,福北ゆたか線,Fukuhoku Yutaka Line,2
+11909,6,筑肥線,Chikuhi Line,2
+11910,6,若松線,Wakamatsu Line,2
+11911,6,福北ゆたか線,Fukuhoku Yutaka Line,2
+11912,6,原田線,Haruda Line,2
+11913,6,ゆふ高原線,Kyūdai Main Line,2
+11914,6,日田彦山線,Hitahikosan Line,2
+11915,6,後藤寺線,Gotoji Line,2
+11916,6,海の中道線,Kashii Line,2
+11917,6,香椎線,Kashii Line,2
+11918,6,佐世保線,Sasebo Line,2
+11920,6,筑肥線,Chikuhi Line,2
+11921,6,唐津線,Karatsu Line,2
+11922,6,大村線,Omura Line,2
+11923,6,豊肥本線,Hohi Main Line,2
+11924,6,三角線（あまくさみすみ線）,Misumi Line,2
+11925,6,えびの高原線,Hisatsu Line,2
+11926,6,肥薩線,Hisatsu Line,2
+11927,6,宮崎空港線,Miyazaki Airport Line,2
+11928,6,日南線,Nichinan Line,2
+11929,6,えびの高原線,Kitto Line,2
+11930,6,指宿枕崎線,Ibusuki Makurazaki Line,2
+21001,11,東武東上線,Tobu Tojo Line,2
+21002,11,東武伊勢崎線,Tobu Isesaki Line,2
+21003,11,東武日光線,Tobu Nikko Line,2
+21004,11,東武アーバンパークライン,Tobu Urban Park Line,2
+21005,11,東武亀戸線,Tobu Kameido Line,2
+21006,11,東武大師線,Tobu Daishi Line,2
+21007,11,東武越生線,Tobu Ogose Line,2
+21008,11,東武宇都宮線,Tobu Utsunomiya Line,2
+21009,11,東武鬼怒川線,Tobu Kinugawa Line,2
+21010,11,東武佐野線,Tobu Sano Line,2
+21011,11,東武桐生線,Tobu Kiryu Line,2
+21012,11,東武小泉線,Tobu Koizumi Line,2
+22001,12,西武池袋線,Seibu Ikebukuro Line,2
+22002,12,西武秩父線,Seibu Chichibu Line,2
+22003,12,西武有楽町線,Seibu Yurakucho Line,2
+22004,12,西武豊島線,Seibu Toshima Line,2
+22005,12,西武狭山線,Seibu Sayama Line,2
+22006,12,レオライナー,Seibu Yamaguchi Line,5
+22007,12,西武新宿線,Seibu Shinjuku Line,2
+22008,12,西武拝島線,Seibu Haijima Line,2
+22009,12,西武西武園線,Seibu Seibuen Line,2
+22010,12,西武国分寺線,Seibu Kokubunji Line,2
+22011,12,西武多摩湖線,Seibu Tamako Line,2
+22012,12,西武多摩川線,Seibu Tamagawa Line,2
+23001,13,京成本線,Keisei Main Line,2
+23002,13,京成押上線,Keisei Oshiage Line,2
+23003,13,京成金町線,Keisei Kanamachi Line,2
+23004,13,京成千葉線,Keisei Chiba Line,2
+23005,13,京成千原線,Keisei Chihara Line,2
+23006,13,成田スカイアクセス線,Keisei Narita Airport Line,2
+24001,14,京王線,Keio Line,2
+24002,14,京王相模原線,Keio Sagamihara Line,2
+24003,14,京王高尾線,Keio Takao Line,2
+24004,14,京王競馬場線,Keio Keibajo Line,2
+24005,14,京王動物園線,Keio Dobutsuen Line,2
+24006,14,京王井の頭線,Keio Inokashira Line,2
+24007,14,京王新線,Keio New Line,2
+25001,15,小田急線,Odakyu Line,2
+25002,15,小田急江ノ島線,Odakyu Enoshima Line,2
+25003,15,小田急多摩線,Odakyu Tama Line,2
+26001,16,東急東横線,Tokyu Toyoko Line,2
+26002,16,東急目黒線,Tokyu Meguro Line,2
+26003,16,東急田園都市線,Tokyu Den-en-toshi Line,2
+26004,16,東急大井町線,Tokyu Oimachi Line,2
+26005,16,東急池上線,Tokyu Ikegami Line,2
+26006,16,東急多摩川線,Tokyu Tamagawa Line,2
+26007,16,東急世田谷線,Tokyu Setagaya Line,4
+26008,16,東急こどもの国線,Tokyu Kodomonokuni Line,2
+26009,16,東急新横浜線,Tokyu Shin-yokohama Line,2
+27001,17,京急本線,Keikyu Main Line,2
+27002,17,京急空港線,Keikyu Airport Line,2
+27003,17,京急大師線,Keikyu Daishi Line,2
+27004,17,京急逗子線,Keikyu Zushi Line,2
+27005,17,京急久里浜線,Keikyu Kurihama Line,2
+28001,18,東京メトロ銀座線,Tokyo Metro Ginza Line,3
+28002,18,東京メトロ丸ノ内線,Tokyo Metro Marunouchi Line,3
+28003,18,東京メトロ日比谷線,Tokyo Metro Hibiya Line,3
+28004,18,東京メトロ東西線,Tokyo Metro Tozai Line,3
+28005,18,東京メトロ千代田線,Tokyo Metro Chiyoda Line,3
+28006,18,東京メトロ有楽町線,Tokyo Metro Yurakucho Line,3
+28008,18,東京メトロ半蔵門線,Tokyo Metro Hanzomon Line,3
+28009,18,東京メトロ南北線,Tokyo Metro Namboku Line,3
+28010,18,東京メトロ副都心線,Tokyo Metro Fukutoshin Line,3
+29001,19,相鉄本線,Sotetsu Main Line,2
+29002,19,相鉄いずみ野線,Sotetsu Izumino Line,2
+29003,19,相鉄・JR直通線,Sotetsu-JR Link Line,2
+29004,19,相鉄新横浜線,Sotetsu Shin-yokohama Line,2
+30001,20,名鉄名古屋本線,Nagoya Line,2
+30002,20,名鉄豊川線,Toyokawa Line,2
+30003,20,名鉄西尾線,Nishio Line,2
+30004,20,名鉄蒲郡線,Gamagori Line,2
+30005,20,名鉄三河線,Mikawa Line,2
+30006,20,名鉄豊田線,Toyota Line,2
+30007,20,名鉄常滑・空港線,Airport Line,2
+30008,20,名鉄常滑線,Tokoname Line,2
+30009,20,名鉄河和線,Kowa Line,2
+30010,20,名鉄知多新線,Chita Line,2
+30011,20,名鉄築港線,Chikko Line,2
+30012,20,名鉄瀬戸線,Seto Line,2
+30013,20,名鉄津島線,Tsushima Line,2
+30014,20,名鉄尾西線,Bisai Line,2
+30015,20,名鉄犬山線,Inuyama Line,2
+30016,20,名鉄各務原線,Kakamigahara Line,2
+30017,20,名鉄広見線,Hiromi Line,2
+30018,20,名鉄小牧線,Komaki Line,2
+30019,20,犬山モノレール,Inuyama Monorail,5
+30020,20,名鉄竹鼻線,Takehana Line,2
+30021,20,名鉄羽島線,Hashima Line,2
+31001,21,近鉄難波線,Kintetsu Namba Line,2
+31002,21,近鉄橿原線,Kintetsu Kashihara Line,2
+31003,21,近鉄南大阪線,Kintetsu Minami-Osaka Line,2
+31004,21,近鉄養老線,Kintetsu Yoro Line,2
+31005,21,近鉄大阪線,Kintetsu Osaka Line,2
+31006,21,近鉄伊賀線,Kintetsu Iga Line,2
+31007,21,近鉄吉野線,Kintetsu Yoshino Line,2
+31008,21,近鉄湯の山線,Kintetsu Yunoyama Line,2
+31009,21,近鉄山田線,Kintetsu Yamada Line,2
+31010,21,近鉄鳥羽線,Kintetsu Toba Line,2
+31011,21,近鉄天理線,Kintetsu Tenri Line,2
+31012,21,近鉄道明寺線,Kintetsu Domyoji Line,2
+31013,247,内部線,Utsube Line,2
+31014,247,八王子線,Hachioji Line,2
+31015,21,近鉄志摩線,Kintetsu Shima Line,2
+31016,21,近鉄生駒線,Kintetsu Ikoma Line,2
+31017,21,近鉄田原本線,Kintetsu Tawaramoto Line,2
+31018,21,近鉄御所線,Kintetsu Gose Line,2
+31019,21,近鉄鈴鹿線,Kintetsu Suzuka Line,2
+31020,21,近鉄奈良線,Kintetsu Nara Line,2
+31021,21,近鉄信貴線,Kintetsu Shigi Line,2
+31022,21,近鉄長野線,Kintetsu Nagano Line,2
+31023,21,近鉄けいはんな線,Kintetsu Keihanna Line,2
+31024,21,西信貴ケーブル,Nishishigi Cable,0
+31025,21,近鉄京都線,Kintestu Kyoto Line,2
+31026,21,生駒ケーブル,Ikoma Cable,0
+31027,21,近鉄名古屋線,Kintetsu Nagoya Line,2
+32001,22,南海本線,Nankai Main Line,2
+32002,22,南海空港線,Nankai Airport Line,2
+32003,22,南海和歌山港線,Nankai Wakayamako Line,2
+32004,22,南海高師浜線,Nankai Takashinohama Line,2
+32005,22,南海加太線,Nankai Kada Line,2
+32006,22,南海多奈川線,Nankai Tanagawa Line,2
+32007,22,南海高野線,Nankai Koya Line,2
+32008,22,南海高野山ケーブル,Nankai Koyasan Cable,0
+32009,22,南海汐見橋線,Nankai Shiomibashi Line,2
+33001,23,京阪本線,Keihan Main Line,2
+33002,23,京阪宇治線,Keihan Uji Line,2
+33003,23,京阪交野線,Keihan Katano Line,2
+33004,23,京阪鴨東線,Keihan Oto Line,2
+33005,23,石清水八幡宮参道ケーブル,Iwashimizuhachiman Sando Cable,0
+33006,23,京阪石山坂本線,Keihan Ishiyama Sakamoto Line,4
+33007,23,京阪京津線,Keihan Keishin Line,4
+33008,23,京阪中之島線,Keihan Nakanoshima Line,2
+34001,24,阪急神戸本線,Hankyu Kobe Main Line,2
+34002,24,阪急宝塚本線,Hankyu Takarazuka Main Line,2
+34003,24,阪急京都本線,Hankyu Kyoto Main Line,2
+34004,24,阪急今津線,Hankyu Imazu Line,2
+34005,24,阪急甲陽線,Hankyu Koyo Line,2
+34006,24,阪急伊丹線,Hankyu Itami Line,2
+34007,24,阪急箕面線,Hankyu Mino Line,2
+34008,24,阪急千里線,Hankyu Senri Line,2
+34009,24,阪急嵐山線,Hankyu Arashiyama Line,2
+35001,25,阪神本線,Hanshin Main Line,2
+35002,25,阪神なんば線,Hanshin Namba Line,2
+35003,25,阪神武庫川線,Hanshin Mukogawa Line,2
+36001,26,西鉄天神大牟田線,Nishitetsu Tenjin Omuta Line,2
+36002,26,西鉄太宰府線,Nishitetsu Dazaifu Line,2
+36003,26,西鉄甘木線,Nishitetsu Amagi Line,2
+36004,26,西鉄貝塚線,Nishitetsu Kaizuka Line,2
+99101,101,札幌市営地下鉄東西線,Sapporo Municipal Subway Tozai Line,3
+99102,101,札幌市営地下鉄南北線,Sapporo Municipal Subway Namboku Line,3
+99103,101,札幌市営地下鉄東豊線,Sapporo Municipal Subway Toho Line,3
+99104,252,札幌市電,Yamahana Streetcar Line,4
+99105,102,函館市電２系統,Hakodate Streetcar Route 2,4
+99106,102,函館市電５系統,Hakodate Streetcar Route 5,4
+99107,103,ふるさと銀河線,Furusato Ginga Line,2
+99108,248,道南いさりび鉄道線,South Hokkaido Railway Line,2
+99201,104,津軽鉄道線,Tsugaru Railway Line,2
+99202,105,弘南鉄道弘南線,Konan Railway Konan Line,2
+99203,105,弘南鉄道大鰐線,Konan Railway Owani Line,2
+99204,106,十和田観光電鉄線,Towada Kanko Electric Railway Line,2
+99205,107,いわて銀河鉄道線,Iwate Galaxy Railway Line,2
+99206,108,青い森鉄道線,Aoimori Railway Line,2
+99207,109,三陸鉄道北リアス線,Sanriku Railway North Rias Line,2
+99208,109,三陸鉄道リアス線,Sanriku Railway Rias Line,2
+99209,110,秋田内陸線,Akita Nairiku Line,2
+99210,111,鳥海山ろく線,Chokai Sanroku Line,2
+99211,112,フラワー長井線,Flower Nagai Line,2
+99212,113,くりはら田園鉄道線,Kurihara Den'en Railway Line,2
+99213,114,阿武隈急行線,Abukuma Kyūkō Line,2
+99214,115,仙台市営地下鉄南北線,Sendai Subway Namboku Line,3
+99218,115,仙台市営地下鉄東西線,Sendai Subway Tozai Line,3
+99215,116,福島交通飯坂線,Fukushima Kotsu Iizaka Line,2
+99216,117,会津鉄道会津線,Aizu Railway Aizu Line,2
+99217,118,仙台空港線,Sendai Airport Line,2
+99301,119,都営大江戸線,Toei Oedo Line,3
+99302,119,都営浅草線,Toei Asakusa Line,3
+99303,119,都営三田線,Toei Mita Line,3
+99304,119,都営新宿線,Toei Shinjuku Line,3
+99305,119,東京さくらトラム（都電荒川線）,Tokyo Sakura Tram,4
+99342,119,日暮里・舎人ライナー,Nippori-Toneri Liner,5
+99306,120,秩父鉄道秩父本線,Chichibu Railway Chichibu Main Line,2
+99307,121,埼玉高速鉄道線,Saitama Rapid Railway Line,2
+99308,122,いすみ線,Isumi Line,2
+99309,123,つくばエクスプレス線,Tsukuba Express Line,2
+99310,124,みなとみらい線,Minatomirai Line,2
+99311,125,ゆりかもめ,Yurikamome,5
+99312,126,わたらせ渓谷線,Watarase Keikoku Line,2
+99313,127,ユーカリが丘線,Yukarigaoka Line,5
+99314,128,伊豆箱根鉄道大雄山線,Izuhakone Railway Daiyuzan Line,2
+99315,129,ひたちなか海浜鉄道湊線,Hitachinaka Seaside Railway,2
+99316,130,横浜市営地下鉄ブルーライン,Yokohama Municipal Subway Blue Line,3
+99343,130,横浜市営地下鉄グリーンライン,Yokohama Municipal Subway Green Line,3
+99317,131,金沢シーサイドライン,Kanazawa Seaside Line,5
+99318,132,関東鉄道常総線,Kanto Railway Joso Line,2
+99319,132,関東鉄道竜ヶ崎線,Kanto Railway Ryugasaki Line,2
+99320,133,江ノ島電鉄線,Enoshima Electric Railway Line,2
+99321,134,ニューシャトル,New Shuttle,5
+99322,135,鹿島鉄道線,Kashima Railway Line,2
+99323,136,鹿島臨海鉄道大洗鹿島線,Oarai Kashima Line,2
+99324,137,芝山鉄道線,Shibayama Railway Line,2
+99325,138,小湊鉄道線,Kominato Line,2
+99326,139,湘南モノレール,Shonan Monorail,5
+99327,140,上信電鉄,Joshin Dentetsu Line,2
+99328,141,上毛電気鉄道上毛線,Jomo Line,2
+99329,13,京成松戸線,Keisei Matsudo Line,2
+99330,143,真岡鐵道真岡線,Moka Line,2
+99331,144,千葉都市モノレール１号線,Chiba Urban Monorail Line 1,5
+99332,144,千葉都市モノレール２号線,Chiba Urban Monorail Line 2,5
+99333,145,流鉄流山線,Ryutetsu Nagareyama Line,2
+99334,146,多摩モノレール,Tama Toshi Monorail Line,5
+99335,147,銚子電鉄線,Choshi Electric Railway Line,2
+99336,148,東京モノレール,Tokyo Monorail,5
+99337,149,りんかい線,Rinkai Line,2
+99338,150,東葉高速線,Toyo Rapid Railway Line,2
+99339,151,箱根登山鉄道鉄道線,Hakone Tozan Line,2
+99340,152,北総鉄道北総線,Hokuso Line,2
+99341,153,ほっとスパ・ライン,Yagan Railway Aizu Kinugawa Line,2
+99344,151,箱根登山ケーブルカー,Hakone Tozan Cable Car,0
+99345,250,芳賀・宇都宮LRT,Haga Utsunomiya LRT,4
+99401,154,富士急行線,Fujikyuko Line,2
+99402,155,北越急行ほくほく線,Hokuhoku Line,2
+99403,156,しなの鉄道線,Shinano Railway Line,2
+99427,156,北しなの線,Kita-Shinano Line,2
+99404,157,上田電鉄別所線,Ueda Electric Railway Bessho Line,2
+99405,158,長野電鉄長野線,Nagano Electric Railway Nagano Line,2
+99406,158,長野電鉄屋代線,Nagano Electric Railway Yashiro Line,2
+99407,159,上高地線,Kamikochi Line,2
+99408,160,富山地鉄本線,Toyama Chiho Railway Main Line,2
+99409,160,富山地鉄立山線,Toyama Chiho Railway Tateyama Line,2
+99410,160,富山地鉄不二越・上滝線,Toyama Chiho Railway Fujikoshi-Kamidaki Line,2
+99411,161,神岡鉄道神岡線,Kamioka Railway Kamioka Line,2
+99412,162,黒部峡谷鉄道本線,Kurobe Gorge Main Line,2
+99413,160,富山地鉄市内線【１・２系統】,Toyama City Tram Line Route 1/2,4
+99422,160,富山地鉄富山都心線【３系統(環状線)】,Toyama City Tram Line Route 3,4
+99414,163,万葉線,Manyo Line,4
+99415,160,富山港線,Toyamako line,4
+99416,165,北陸鉄道石川線,Hokuriku Railroad Ishikawa Line,2
+99417,165,北陸鉄道浅野川線,Hokuriku Railroad Asanogawa Line,2
+99423,244,日本海ひすいライン,Nihonkai Hisui Line,2
+99424,244,妙高はねうまライン,Myoko Haneuma Line,2
+99425,245,あいの風とやま鉄道線,Ainokaze Toyama Railway Line,2
+99426,246,IRいしかわ鉄道線,IR Ishikawa Railway Line,2
+99418,166,のと鉄道七尾線,Noto Railway Nanao Line,2
+99419,167,えちぜん鉄道勝山永平寺線,Echizen Railway Katsuyama Eiheiji Line,2
+99420,167,えちぜん鉄道三国芦原線,Echizen Railway Mikuni Ashihara Line,2
+99421,168,福井鉄道福武線,Fukui Railway Fukutake Line,4
+99428,251,ハピラインふくい線,Hapi-line Fukui线,2
+99501,169,伊豆急行線,Izu Kyuko Line,2
+99502,128,伊豆箱根鉄道駿豆線,Izuhakone Railway Sunzu Line,2
+99503,170,岳南鉄道線,Gakunan Railway Line,2
+99504,171,静岡鉄道静岡清水線,Shizuoka Railway Shizuoka Shimizu Line,2
+99505,172,天竜浜名湖線,Tenryu Hamanako Line,2
+99506,173,遠州鉄道鉄道線,Enshu Railway Line,2
+99507,174,大井川鐵道大井川本線,Oigawa Railway Oigawa Main Line,2
+99508,174,南アルプスあぷとライン,Oigawa Railway Ikawa Line,2
+99509,175,あおなみ線,Aonami Line,2
+99510,176,東海交通事業城北線,Tokai Transport Service Johoku Line,2
+99511,177,愛知環状鉄道線,Aichi Loop Line,2
+99512,178,リニモ,Linimo,5
+99513,179,名古屋市営地下鉄東山線,Nagoya Municipal Subway Higashiyama Line,3
+99514,179,名古屋市営地下鉄名城線,Nagoya Municipal Subway Meijo Line,3
+99515,179,名古屋市営地下鉄名港線,Nagoya Municipal Subway Meiko Line,3
+99516,179,名古屋市営地下鉄鶴舞線,Nagoya Municipal Subway Tsurumai Line,3
+99517,179,名古屋市営地下鉄桜通線,Nagoya Municipal Subway Sakuradori Line,3
+99518,179,名古屋市営地下鉄上飯田線,Nagoya Municipal Subway Kamiida Line,3
+99519,180,ピーチライナー,Peach Liner,5
+99520,181,豊橋鉄道渥美線,Toyohashi Railroad Atsumi Line,4
+99521,181,豊橋鉄道東田本線,Toyohashi Railroad Azumada Main Line,4
+99522,181,豊橋鉄道運動公園前線,Toyohashi Railroad Yagyu-bashi Branch Line,4
+99523,182,ゆとりーとライン,Yutorito Line,5
+99524,183,明知鉄道明知線,Akechi Railway Akechi Line,2
+99525,184,長良川鉄道越美南線,Nagaragawa Railway Etsumi-Nan Line,2
+99526,185,樽見鉄道樽見線,Tarumi Railway Tarumi Line,2
+99528,186,三岐鉄道三岐線,Sangi Railway Sanki Line,2
+99529,186,三岐鉄道北勢線,Sangi Railway Hokusei Line,2
+99530,187,伊勢鉄道伊勢線,Ise Railway Ise Line,2
+99531,188,伊賀鉄道伊賀線,Iga Railway Iga Line,2
+99532,189,養老鉄道養老線,Yoro Railway Yoro Line,2
+99601,190,近江鉄道本線,Ohmi Railway Main Line,2
+99602,190,近江鉄道多賀線,Ohmi Railway Taga Line,2
+99603,190,近江鉄道八日市線,Ohmi Railway Yokaichi Line,2
+99604,191,信楽高原鐵道信楽線,Shigaraki Kogen Railway Shigaraki Line,2
+99605,192,嵯峨野観光線,Sagano Scenic Railway,2
+99606,193,叡山電鉄叡山本線,Eizan Electric Railway Eizan Main Line,2
+99607,193,叡山電鉄鞍馬線,Eizan Electric Railway Kurama Line,2
+99608,194,宮福線,Miyafuku Line,2
+99609,194,宮豊線,Miyatoyo Line,2
+99653,194,宮舞線,Miyamai Line,0
+99610,195,京都市営地下鉄烏丸線,Kyoto Municipal Subway Karasuma Line,3
+99611,195,京都市営地下鉄東西線,Kyoto Municipal Subway Tozai Line,3
+99612,196,京福電鉄嵐山本線,Keifuku Electric Railway Arashiyama Main Line,4
+99613,196,京福電鉄北野線,Keifuku Electric Railway Kitano Line,4
+99614,197,北大阪急行電鉄,Kita Osaka Express Electric Railway,2
+99616,22,南海泉北線,Nankai Semboku Line,2
+99617,199,水間鉄道水間線,Mizuma Railway Mizuma Line,2
+99618,249,Osaka Metro御堂筋線,Osaka Metro Midosuji Line,3
+99619,249,Osaka Metro谷町線,Osaka Metro Tanimachi Line,3
+99620,249,Osaka Metro四つ橋線,Osaka Metro Yotsubashi Line,3
+99621,249,Osaka Metro中央線,Osaka Metro Chuo Line,3
+99622,249,Osaka Metro千日前線,Osaka Metro Sennichimae Line,3
+99623,249,Osaka Metro堺筋線,Osaka Metro Sakaisuji Line,3
+99624,249,Osaka Metro長堀鶴見緑地線,Osaka Metro Nagahori Tsurumi-ryokuchi Line,3
+99652,249,Osaka Metro今里筋線,Osaka Metro Imazatosuji Line,3
+99625,249,Osaka Metro南港ポートタウン線,Osaka Metro Nanko Port Town Line,5
+99626,201,大阪モノレール線,Osaka Monorail Main Line,5
+99627,201,大阪モノレール彩都線,Osaka Monorail Saito Line,5
+99628,202,阪堺電軌上町線,Hankai Uemachi Line,4
+99629,202,阪堺電軌阪堺線,Hankai Line,4
+99630,203,神戸高速東西線,Kobe Rapid Transit Railway Tozai Line,2
+99631,203,神戸高速南北線,Kobe Rapid Transit Railway Namboku Line,2
+99632,204,有馬線,Arima Line,2
+99633,204,三田線,Sanda Line,2
+99634,204,公園都市線,Koen-Toshi Line,2
+99635,204,粟生線,Ao Line,2
+99636,211,神戸市営地下鉄北神線,Kobe Municipal Subway Hokushin Line,2
+99637,206,山陽電鉄本線,Sanyo Electric Railway Main Line,2
+99638,206,山陽電鉄網干線,Sanyo Electric Railway Aboshi Line,2
+99615,207,能勢電鉄妙見線,Nose Electric Railway Myoken Line,2
+99640,207,能勢電鉄日生線,Nose Electric Railway Nissei Line,2
+99642,208,三木鉄道三木線,Miki Railway Miki Line,2
+99643,209,北条鉄道北条線,Hojo Line,2
+99644,210,智頭急行智頭線,Chizu Express Chizu Line,2
+99645,211,神戸市営地下鉄西神線,Kobe Municipal Subway Seishin Line,3
+99646,211,神戸市営地下鉄山手線,Kobe Municipal Subway Yamate Line,3
+99647,211,神戸市営地下鉄海岸線,Kobe Municipal Subway Kaigan Line,3
+99648,212,ポートライナー,Port Liner,5
+99649,212,六甲ライナー,Rokko Liner,5
+99650,213,紀州鉄道線,Kishu Railway Line,2
+99651,214,貴志川線,Kishigawa Line,2
+99701,215,若桜線,Wakasa Line,2
+99702,216,北松江線,Kita-Matsue Line,2
+99703,216,大社線,Taisha Line,2
+99704,217,水島本線,Mizushima Main Line,2
+99705,218,井原線,Ibara Line,2
+99706,219,東山線,Higashiyama Line,4
+99707,219,清輝橋線,Seikibashi Line,4
+99708,220,スカイレールみどり坂線,Skyrail Midorizaka Line,5
+99709,221,アストラムライン,Astram Line,5
+99710,222,広電１号線(宇品線),Hiroden Ujina Line,4
+99711,222,広電２号線(宮島線),Hiroden Miyajima Line,4
+99712,222,広電３号線,Hiroden Streetcar Route 3,4
+99713,222,広電５号線(皆実線),Hiroden Minami Line,4
+99714,222,広電６号線(江波線),Hiroden Eba Line,4
+99715,222,広電７号線,Hiroden Streetcar Route 7,4
+99716,222,広電８号線(横川線),Hiroden Yokogawa Line,4
+99717,222,広電９号線(白島線),Hiroden Hakushima Line,4
+99718,223,錦川清流線,Nishikigawa Seiryu Line,2
+99801,224,阿波室戸シーサイドライン,Awa-Muroto Seaside Line,2
+99802,225,琴電琴平線,Kotoden Kotohira Line,2
+99803,225,琴電長尾線,Kotoden Nagao Line,2
+99804,225,琴電志度線,Kotoden Shido Line,2
+99805,226,伊予鉄道郡中線,Iyotetsu Gunchu Line,2
+99806,226,伊予鉄道高浜線,Iyotetsu Takahama Line,2
+99807,226,伊予鉄道横河原線,Iyotetsu Yokogawara Line,2
+99808,226,伊予鉄道環状線（１系統）,Iyotetsu Route 1 Loop Line,4
+99809,226,伊予鉄道環状線（２系統）,Iyotetsu Route 2 Loop Line,4
+99810,226,伊予鉄道市駅線（３系統）,Iyotetsu Route 3,4
+99811,226,伊予鉄道松山駅前線（５系統）,Iyotetsu Route 5,4
+99812,226,伊予鉄道本町線（６系統）,Iyotetsu Route 6,4
+99814,227,中村線,Nakamura Line,2
+99815,227,宿毛線,Sukumo Line,2
+99816,227,ごめん・なはり線,Gomen-Nahari Line,2
+99817,228,ごめん線,Gomen Line,4
+99818,228,伊野線,Ino Line,4
+99819,228,桟橋線,Sambashi Line,4
+99901,229,甘木鉄道甘木線,Amagi Railway,2
+99902,230,伊田線,Ida Line,2
+99903,230,糸田線,Itoda Line,2
+99904,230,田川線,Tagawa Line,2
+99928,230,門司港レトロ観光線,Mojiko Retro Scenic Line,2
+99905,231,福岡市営地下鉄空港線,Fukuoka City Subway Airport Line,3
+99906,231,福岡市営地下鉄箱崎線,Fukuoka City Subway Hakozaki Line,3
+99907,231,福岡市営地下鉄七隈線,Fukuoka City Subway Nanakuma Line,3
+99908,232,北九州モノレール,Kitakyushu Monorail,5
+99909,233,筑豊電気鉄道線,Chikuho Electric Railroad Line,2
+99910,234,西九州線,Nishi-Kyushu Line,2
+99911,234,西九州線,Nishi-Kyushu Line,2
+99912,235,島原鉄道線,Shimabara Railway Line,2
+99913,236,長崎電軌１系統,Nagasaki Electric Tramway Route 1,4
+99914,236,長崎電軌３系統,Nagasaki Electric Tramway Route 3,4
+99915,236,長崎電軌４系統,Nagasaki Electric Tramway Route 4,4
+99916,236,長崎電軌５系統,Nagasaki Electric Tramway Route 5,4
+99917,237,熊本電鉄本線,Kumamoto Electric Railway Main Line,2
+99918,237,熊本電鉄上熊本線,Kumamoto Electric Railway Kami-Kumamoto Line,2
+99919,238,高森線,Takamori Line,2
+99920,239,湯前線,Yunomae Line,2
+99921,240,肥薩おれんじ鉄道線,Hisatsu Orange Railway,2
+99922,241,熊本市電Ａ系統,Kumamoto City Tram Route A,4
+99923,241,熊本市電Ｂ系統,Kumamoto City Tram Route B,4
+99925,242,鹿児島市電１系統,Kagoshima City Tram Route 1,4
+99926,242,鹿児島市電２系統,Kagoshima City Tram Route 2,4
+99927,243,ゆいレール,Yui Rail,5
