@@ -4,13 +4,21 @@
 import requests
 import re
 from bs4 import BeautifulSoup
+def process_string(s):
+    transformed = s[5:s.find("円")]
+    if transformed.find(",") != -1:
+        transformed = transformed[0:transformed.find(",")]+transformed[transformed.find(",")+1:]
+    
+    return int(transformed)
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 origin = ""
 dest = ""
 
+prices = []
 # Take user input
+# TODO: move user input part to main.py
 while (origin != "-1") and (dest != "-1"):
     origin = str(input("Enter Origin "))
     dest = str(input("Enter Destination "))
@@ -28,7 +36,7 @@ while (origin != "-1") and (dest != "-1"):
     route01 = soup.find("div", id="route01")
 
     # If route01 is non-existent, impossible to transit between the origin and destination
-    if (len(route01) == 0):
+    if (route01 == None):
         print("Route is non-existent for trains on Yahoo Transit, please input another route")
         continue
 
@@ -40,44 +48,54 @@ while (origin != "-1") and (dest != "-1"):
     
     print("DEBUG: ", flag) # DELETE LATER
 
+    aux = []
     # route01 is fully JR, find fare
     if (flag != None):
         for i in route01:
             i = route01.find("li", class_="fare")
 
             # Print fare
-            print(i.get_text(strip=True))
+            aux.append(process_string(i.get_text(strip=True)))
             break
 
     # Check if route02 is fully JR
     route02 = soup.find("div", id="route02")
-    sections02 = route02.find_all("li", class_="transport")
-    for i in sections02:
-        flag = i.find(string=re.compile("ＪＲ"))
+    if (route02 != None):
+        sections02 = route02.find_all("li", class_="transport")
+        for i in sections02:
+            flag = i.find(string=re.compile("ＪＲ"))
 
-    print("DEBUG: ", flag) # DELETE LATER
+        print("DEBUG: ", flag) # DELETE LATER
 
-    # route02 is fully JR, find fare
-    if (flag != None):
-        for i in route02:
-            i = route02.find("li", class_="fare")
+        # route02 is fully JR, find fare
+        if (flag != None):
+            for i in route02:
+                i = route02.find("li", class_="fare")
 
-            # Print fare
-            print(i.get_text(strip=True))
-            break
+                aux.append(process_string(i.get_text(strip=True)))
+                break
     # Check if route03 is fully JR
     route03 = soup.find("div", id="route03")
-    sections03 = route03.find_all("li", class_="transport")
-    for i in sections03:
-        flag = i.find(string=re.compile("ＪＲ"))
-    
-    print("DEBUG: ", flag) # DELETE LATER
+    if (route03 != None):
+        sections03 = route03.find_all("li", class_="transport")
+        for i in sections03:
+            flag = i.find(string=re.compile("ＪＲ"))
+        
+        print("DEBUG: ", flag) # DELETE LATER
 
-    # route03 is fully JR, find fare
-    if (flag != None):
-        for i in route03:
-            i = route03.find("li", class_="fare")
+        # route03 is fully JR, find fare
+        if (flag != None):
+            for i in route03:
+                i = route03.find("li", class_="fare")
 
-            # Print fare
-            print(i.get_text(strip=True))
-            break  
+                aux.append(process_string(i.get_text(strip=True)))
+                break
+    mn = 2147382647
+    for i in aux:
+        mn = min(mn, i)
+    if (mn != 2147382647):
+        prices.append(mn)
+    print(aux)
+    aux.clear()
+print(prices)
+print(sum(prices))
