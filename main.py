@@ -1,6 +1,7 @@
 # Query needs to be in Japanese Characters (KANJI)
 # TODO: MODUALIZE THE ENTIRE PROJECT WHAT IS THIS 
 # https://transit.yahoo.co.jp/search/result?from=%E6%9D%B1%E4%BA%AC&to=%E5%93%81%E5%B7%9D&ticket=ic&expkind=1
+
 import requests
 import re
 import time
@@ -12,6 +13,7 @@ from bs4 import BeautifulSoup
 from query import *
 from parser import *
 import utils
+
 def main():
     station_lookup = get_lookup_table()
     origin = ""
@@ -29,79 +31,39 @@ def main():
             dest = translate(dest_raw, station_lookup)
             print(origin, ' ', dest)
             time.sleep(random.uniform(1, 2))
+
             # Requesting for info from Yahoo Transit
             response = yahoo_query(origin, dest)
             soup = BeautifulSoup(response.text, "html.parser")
-            # route01 = soup.find("div", id="route01")
             route01 = get_route(soup, "route01")
-
+            route02 = get_route(soup, "route02")
+            route03 = get_route(soup, "route03")
             # If route01 is non-existent, impossible to transit between the origin and destination
             if (route01 == None):
                 print("Route is non-existent for trains on Yahoo Transit, please input another route")
                 continue
+            aux = []
 
             # Check if route01 is fully JR
-            #sections01 = route01.find_all("li", class_="transport")
-            '''for i in sections01:
-                flag = i.find(string=re.compile("ＪＲ"))
-                flag2 = i.find(string=re.compile("徒歩"))
-                if (flag == None) and (flag2 == None):
-                    break
-                #print(flag)'''
-            aux = []
-            if (check_jr(route01) == False):
-                break
-            else:
+            if (check_jr(route01) == True):
                 temp_fare = find_fare(route01)
-                aux.append(temp_fare)
-            #print("DEBUG: ", flag) # DELETE LATER
-
-            
+                aux.append(temp_fare) # Store fare into auxillary tuple for comparison
 
             # Check if route02 is fully JR
-            route02 = soup.find("div", id="route02")
             if (route02 != None):
-                sections02 = route02.find_all("li", class_="transport")
-                for i in sections02:
-                    flag = i.find(string=re.compile("ＪＲ"))
-                    flag2 = i.find(string=re.compile("徒歩"))
-                    if (flag == None) and (flag2 == None):
-                        break
-                print("DEBUG: ", flag) # DELETE LATER
+                if (check_jr(route02) == True):
+                    temp_fare = find_fare(route02)
+                    aux.append(temp_fare)
 
-                # route02 is fully JR, find fare
-                if (flag != None) or (flag2 != None):
-                    for i in route02:
-                        i = route02.find("li", class_="fare")
-
-                        aux.append(fare_stoi((i.get_text(strip=True))))
-                        break
             # Check if route03 is fully JR
-            route03 = soup.find("div", id="route03")
             if (route03 != None):
-                sections03 = route03.find_all("li", class_="transport")
-                for i in sections03:
-                    flag = i.find(string=re.compile("ＪＲ"))
-                    flag2 = i.find(string=re.compile("徒歩"))
-                    if (flag == None) and (flag2 == None):
-                        break
-                
-                print("DEBUG: ", flag) # DELETE LATER
-
-                # route03 is fully JR, find fare
-                if (flag != None) or (flag2 != None):
-                    for i in route03:
-                        i = route03.find("li", class_="fare")
-
-                        aux.append(fare_stoi(i.get_text(strip=True)))
-                        break
+                if (check_jr(route03) == True):
+                    temp_fare = find_fare(route03)
+                    aux.append(temp_fare)
             mn = 2147483647
             mx = -mn
             if (len(aux)==0):
-                temp = []
-                temp.append(origin_raw)
-                temp.append(dest_raw)
-                warnings.append(temp)
+                warnings.append((origin_raw, dest_raw))
             for i in aux:
                 mn = min(mn, i)
                 mx = max(mx, i)
@@ -116,9 +78,12 @@ def main():
     print("Maximum cost: ", max_cost)
     print(sum(max_cost))
     print("All prices are calculated for reserved seats (if available)")
+    print(f"\033[91mWARNING:")
+
     for i in warnings:
-        print(f"\033[91mWARNING: {i[0].upper()} to {i[1].upper()} HAS NO RESULTS AND THUS IS NOT CALCULATED IN THE TOTAL")
-        print("Reasons could include no valid routes, no JR coverage etc etc...")
-        print(f"You can edit your input to fix the problem (Try putting a nearby station/major hub as your origin!)\033[0m")
+        print(f"{i[0].upper()} to {i[1].upper()} HAS NO RESULTS")
+    
+    print("Reasons could include no valid routes, no JR coverage etc etc...")
+    print(f"You can edit your input to fix the problem (Try putting a nearby station/major hub as your origin!)\033[0m")
 if __name__ == "__main__":
     main()
