@@ -32,7 +32,8 @@ def main():
             # Requesting for info from Yahoo Transit
             response = yahoo_query(origin, dest)
             soup = BeautifulSoup(response.text, "html.parser")
-            route01 = soup.find("div", id="route01")
+            # route01 = soup.find("div", id="route01")
+            route01 = get_route(soup, "route01")
 
             # If route01 is non-existent, impossible to transit between the origin and destination
             if (route01 == None):
@@ -40,25 +41,22 @@ def main():
                 continue
 
             # Check if route01 is fully JR
-            sections01 = route01.find_all("li", class_="transport")
-            for i in sections01:
+            #sections01 = route01.find_all("li", class_="transport")
+            '''for i in sections01:
                 flag = i.find(string=re.compile("ＪＲ"))
                 flag2 = i.find(string=re.compile("徒歩"))
                 if (flag == None) and (flag2 == None):
                     break
-                #print(flag)
-            
-            print("DEBUG: ", flag) # DELETE LATER
-
+                #print(flag)'''
             aux = []
-            # route01 is fully JR, find fare
-            if (flag != None) or (flag2 != None):
-                for i in route01:
-                    i = route01.find("li", class_="fare")
+            if (check_jr(route01) == False):
+                break
+            else:
+                temp_fare = find_fare(route01)
+                aux.append(temp_fare)
+            #print("DEBUG: ", flag) # DELETE LATER
 
-                    # Print fare
-                    aux.append(fare_stoi(i.get_text(strip=True)))
-                    break
+            
 
             # Check if route02 is fully JR
             route02 = soup.find("div", id="route02")
